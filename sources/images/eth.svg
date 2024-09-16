@@ -1,0 +1,19 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ethereum (ETH)">
+<circle id="Ethereum (ETH)_2" cx="28" cy="28" r="28" fill="url(#paint0_linear_26_9)"/>
+<g id="Ethereum (ETH)_3">
+<path id="Ethereum (ETH)_4" d="M27.922 11.2L27.6992 11.9565V33.9093L27.922 34.1316L38.112 28.1081L27.922 11.2Z" fill="#10151A"/>
+<path id="Ethereum (ETH)_5" d="M27.9208 11.2L17.7305 28.1081L27.9208 34.1316V23.4763V11.2Z" fill="#10151A"/>
+<path id="Ethereum (ETH)_6" d="M27.9224 36.0608L27.7969 36.2139V44.0338L27.9224 44.4003L38.1187 30.0405L27.9224 36.0608Z" fill="#10151A"/>
+<path id="Ethereum (ETH)_7" d="M27.9208 44.4003V36.0608L17.7305 30.0405L27.9208 44.4003Z" fill="#10151A"/>
+<path id="Ethereum (ETH)_8" d="M27.9219 34.1316L38.1119 28.1082L27.9219 23.4763V34.1316Z" fill="#10151A"/>
+<path id="Ethereum (ETH)_9" d="M17.7305 28.1082L27.9208 34.1316V23.4763L17.7305 28.1082Z" fill="#10151A"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_26_9" x1="28" y1="0" x2="28" y2="56" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7993F9"/>
+<stop offset="1" stop-color="#627EEA"/>
+</linearGradient>
+</defs>
+</svg>
