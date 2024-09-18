@@ -56,3 +56,23 @@ Unproductive day
 ### кино song of the day
 
 [Я идыпо улице](https://open.spotify.com/track/6vv7geUObhk2VWcATU3m70?si=bd9bcd066ed347ed)
+
+## 17/09/2024
+
+### Progress
+
+- Finally setup the git repo correctly
+
+- Deployed to github pages
+
+## 18/09/2024
+
+### Progress
+
+- Finished section 4
+
+- Started on section 5
+
+- Ordered images in subfolders
+
+- Finished section 5
