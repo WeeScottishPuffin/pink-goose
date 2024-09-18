@@ -76,3 +76,7 @@ Unproductive day
 - Ordered images in subfolders
 
 - Finished section 5
+
+### Кино song of the day
+
+[Проснись](https://open.spotify.com/track/2b28wvQUu4CdYEM7qLRXhV?si=e517c47a235f4c89)
