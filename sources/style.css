@@ -25,6 +25,28 @@ body{
 ::selection{
     display: none;
 }
+/*--------*/
+
+.t-blue path{
+    color:#4BE1F4;
+    stroke:#4BE1F4;
+}
+.t-purp path{
+    color:#A36FFE;
+    stroke:#A36FFE;
+}
+.t-gren path{
+    color:#C8D316;
+    stroke:#C8D316;
+}
+.t-orng path{
+    color:#FF8135;
+    stroke:#FF8135;
+}
+.t-lyel path{
+    color:#FFFBA8;
+    stroke:#FFFBA8;
+}
 /* Topbar */
 .topbar{
     display: flex;
@@ -251,6 +273,41 @@ body{
 .imgcontainer img{
     aspect-ratio: 1;
     width:calc(calc(62.5vw - calc(5* 20px)) / 12);
+}
+.techitem p{
+    color:var(--foreground);
+    font-size: 22px;
+    margin-top: 16px;
+    text-align: center;
+}
+.s5images{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    overflow-x: hidden;
+    width:100%;
+}
+.s5img{
+    aspect-ratio: 1;
+    border-radius:40px;
+    min-width:80px;
+    width: calc(calc(100% - calc(5 * 20px)) / 6);
+    max-width: 160px;
+    gap: 25px;
+}
+.buzzrow{
+    text-align: center;
+    margin-bottom:22px;
+}
+.buzzword{
+    color:white;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: bold;
+}
+.buzzstar{
+    margin: auto 28px auto;
 }
 /* Footer */
 .footer{
