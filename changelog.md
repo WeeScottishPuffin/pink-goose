@@ -80,3 +80,19 @@ Unproductive day
 ### Кино song of the day
 
 [Проснись](https://open.spotify.com/track/2b28wvQUu4CdYEM7qLRXhV?si=e517c47a235f4c89)
+
+## Didn't spend time at school for a month
+
+## 28/10/2024
+
+### Progress
+
+- Finished section 6
+
+- Fixed showcase image from section 2 kinda
+
+This semestre ends with the christmas holidays, after which this project will be put on hold indefinitely. Untill then, I'll prioritise finishing a basic rendition of the front page, lacking functionality. It is unclear if I am to continue this project on a later date.
+
+### Кино song of the day
+
+[Бездельник №1](https://open.spotify.com/track/7zQbvIgfpeg1Npk9eoQeyD?si=eb575b35b6de4260)

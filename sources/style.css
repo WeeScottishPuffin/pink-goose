@@ -338,7 +338,7 @@ body{
 }
 .digest form input{
     height:68px;
-    width:390px;
+    width:31.25vw;
     border-radius:16px;
     background-color: #121E28;
     border: #2A3744 2px solid;
@@ -347,6 +347,7 @@ body{
     color:#3D4C5B;
     font-weight: 600;
     padding-left:28px;
+    margin-right:24px;
 }
 .digest form input::placeholder{
     font-family: Montserrat;
@@ -361,8 +362,28 @@ body{
     border-radius: 12px;
     cursor:pointer;
     font-size:18px;
+    font-weight:600;
     height:68px;
-    width: 175px;
+    width: 9.375vw;
+}
+.s7-top{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.s7-top h1{
+    color: #E5E5E5;
+    font-family: Lato;
+    font-size:54px
+}
+.s7-top a{
+    color: #8395A7;
+    font-size:22px;
+    height: 40px;
+    font-weight: 800;
+    text-decoration: none;
 }
 /* Footer */
 .footer{
