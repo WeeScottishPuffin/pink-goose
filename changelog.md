@@ -96,3 +96,17 @@ This semestre ends with the christmas holidays, after which this project will be
 ### Кино song of the day
 
 [Бездельник №1](https://open.spotify.com/track/7zQbvIgfpeg1Npk9eoQeyD?si=eb575b35b6de4260)
+
+## 29/10/2024
+
+### Progress
+
+- Started working on sections 7 and 8 (nearly identical)
+
+- Redid class naming conventions
+
+- Removed inline styles
+
+### ~~Кино~~ Вадим Казаченко song of the day
+
+[Сирень](https://open.spotify.com/track/5LoHsL9R7NYs7wSeGR9FuM?si=5fbabeaa5a08479b)
