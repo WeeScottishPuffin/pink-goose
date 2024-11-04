@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="sources/style.css" rel="stylesheet" type="text/css" />
+    <link href="sources/css/style.css" rel="stylesheet" type="text/css" />
     <title>Pink Goose</title>
     <script>
         function login(){alert("Login")}
@@ -11,30 +11,30 @@
     </script>
 </head>
 <body>
-    <div class="topbar">
+    <header class="topbar">
         <div class="logo">
             <p class="logo-left">Pink</h1>
             <p class="logo-right">Goose</h1>
         </div>
-        <div class="menubar">
+        <nav class="menubar">
             <a href="#menubar" class="menubar-item">Home</a>
             <a href="#section-2" class="menubar-item">Learn</a>
             <a href="#section-3" class="menubar-item">About</a>
             <a href="#section-4" class="menubar-item">Contact</a>
-        </div>
+        </nav>
         <div class="login-button" onclick="login()">
             <p>Login</p>
         </div>
-    </div>
+    </header>
     <div class="content">
-        <div class="section" id="section-1">
+        <section id="section-landing">
             <h1 class="cta">The easiest way<br>to start a Goose</h1>
             <p class="section-text">An all-in-one platform to start, manage and grow<br>a decentralized autonomous organization</p>
             <div class="section-button-go" onclick="go()">
                 <p>Get Started</p>
             </div>
-        </div>
-        <div class="section" id="section-2">
+        </section>
+        <section id="section-showcase">
             <h1 class="section-heading">Ready for every project</h1>
             <div class="tags-row tags-row-4">
                 <div class="tag"><p class="tag-body _text-colour-1">Investment DAO</p></div>
@@ -70,8 +70,8 @@
                 </div>
             </div>
             <div class="showcase-footer"><p>1000+ projects launched on Superdao</p></div>
-        </div>
-        <div class="section" id="section-3">
+        </section>
+        <section id="section-journey">
             <h1 class="section-heading">Designed for the full journey</h1>
             <h2 onmouseover="hover(this)" class="journey-text active">Organisation design</h2>
             <h2 onmouseover="hover(this)" class="journey-text">Smart contract development</h2>
@@ -80,56 +80,56 @@
             <h2 onmouseover="hover(this)" class="journey-text">Member onboarding</h2>
             <h2 onmouseover="hover(this)" class="journey-text">Contributor management</h2>
             <h2 onmouseover="hover(this)" class="journey-text">GOOSE operations</h2>
-        </div>
-        <div class="section" id="section-4">
+        </section>
+        <section id="section-technologies">
             <h1 class="section-heading">Works with</h1>
             <div class="technologies">
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/eth.svg"></img>
+                        <img alt="Etherium" src="sources/images/section4/eth.svg"></img>
                     </div>
                     <p>Etherium</p>
                 </div>
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/polg.svg"></img>
+                        <img alt="Polygon" src="sources/images/section4/polg.svg"></img>
                     </div>
                     <p>Polygon</p>
                 </div>
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/gns.svg"></img>
+                        <img alt="Gnosis Safe" src="sources/images/section4/gns.svg"></img>
                     </div>
                     <p>Gnosis Safe</p>
                 </div>
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/sns.svg"></img>
+                        <img alt="Snapshot" src="sources/images/section4/sns.svg"></img>
                     </div>
                     <p>Snapshot</p>
                 </div>
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/ens.svg"></img>
+                        <img alt="ENS" src="sources/images/section4/ens.svg"></img>
                     </div>
                     <p>ENS</p>
                 </div>
                 <div class="technologies-item">
                     <div class="technologies-item-image">
-                        <img src="sources/images/section4/ops.svg"></img>
+                        <img alt="OpenSea" src="sources/images/section4/ops.svg"></img>
                     </div>
                     <p>OpenSea</p>
                 </div>
             </div>
-        </div>
-        <div class="section" id="section5">
+        </section>
+        <section id="section-people">
             <h1 class="section-heading">Help at every step</h1>
             <div class="persons-images">
-                <img src="./sources/images/section5/person_1.png" alt="" class="persons-image">
-                <img src="./sources/images/section5/person_2.png" alt="" class="persons-image">
-                <img src="./sources/images/section5/person_3.png" alt="" class="persons-image">
-                <img src="./sources/images/section5/person_4.png" alt="" class="persons-image">
-                <img src="./sources/images/section5/person_5.png" alt="" class="persons-image">
+                <img alt="Mugshot 1" src="./sources/images/section5/person_1.png" alt="" class="persons-image">
+                <img alt="Mugshot 2" src="./sources/images/section5/person_2.png" alt="" class="persons-image">
+                <img alt="Mugshot 3" src="./sources/images/section5/person_3.png" alt="" class="persons-image">
+                <img alt="Mugshot 4" src="./sources/images/section5/person_4.png" alt="" class="persons-image">
+                <img alt="Mugshot 5" src="./sources/images/section5/person_5.png" alt="" class="persons-image">
             </div>
             <div class="buzzwords">
                 <div class="buzzwords-row">
@@ -165,8 +165,8 @@
                     <span class="buzzwords-word">Guides</span>
                 </div>
             </div>
-        </div>
-        <div class="section" id="section6">
+        </section>
+        <section id="section-digest">
             <div class="digest">
                 <h1 class="digest-title">Weekly digest</h1>
                 <p class="digest-subtitle">Latest news in DAOs and Web3</p>
@@ -177,57 +177,61 @@
                     </button>
                 </form>
             </div>
-        </div>
-        <div class="section" id="section7">
+        </section>
+        <section id="section-news">
             <div class="collection-top">
                 <h1 class="title">Press</h1>
                 <a href="#" class="collection-more-link">See all </a>
             </div>
             <div class="collection-container">
                 <div class="container-item colour-8">
-                    <img class="container-item-image" src="sources/images/Frame 5589.png"/>
+                    <img alt="Decrypt Logo" class="container-item-image" src="sources/images/section7/Decrypt.png"/>
                     <h1 class="container-item-title">Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform</h1>
                     <p class="container-item-text">Superdao aims to make it easier for online communities to build and launch DAOs</p>
                 </div>
                 <div class="container-item colour-9">
-                    <img class="container-item-image" src="sources/images/Frame 5560.png"/>
+                    <img alt="Blockworks Logo" class="container-item-image" src="sources/images/section7/Blockworks.png"/>
                     <h1 class="container-item-title">The Y Combinator of Web3 Attracts Record Number of DAO Startups</h1>
                     <p class="container-item-text">DAOs and related startups made up an “overwhelming number of applicants” for a Web3 accelerator’s cohort this year</p>
                 </div>
                 <div class="container-item colour-10">
-                    <img class="container-item-image" src="sources/images/Frame 5591.png"/>
+                    <img alt="TechCrunch Logo" class="container-item-image" src="sources/images/section7/TechCrunch.png"/>
                     <h1 class="container-item-title">VC-backed DAO startups are racing to define what DAOs actually are</h1>
                     <p class="container-item-text">Not all 'decentralized autonomous organizations' are autonomous... or decentralized</p>
                 </div>
             </div>
-        </div>
-        <div class="section" id="section8">
+        </section>
+        <!-- Podcasts Section -->
+        <section id="section-podcasts">
             <div class="collection-top">
                 <h1 class="title">Podcasts</h1>
                 <a href="#" class="collection-more-link">See all </a>
             </div>
             <div class="collection-container">
                 <div class="container-item container-item-podcasts">
-                    <img class="container-item-image" src="sources/images/Frame 5589.png"/>
-                    <h1 class="container-item-title">Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform</h1>
-                    <p class="container-item-text">Superdao aims to make it easier for online communities to build and launch DAOs</p>
+                    <img alt="The Pomp Podcast Logo" class="container-item-image-podcasts" src="sources/images/section8/podcasts_1.png"/>
+                    <h1 class="container-item-title-podcasts">Understanding DAOs with Yury Lifshits</h1>
+                    <p class="container-item-text-podcasts">The Pomp Podcast<br>by Anthony Pompliano</p>
+                    <a href="#" class="container-item-link-podcasts">Listen <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="container-item container-item-podcasts">
-                    <img class="container-item-image" src="sources/images/Frame 5589.png"/>
-                    <h1 class="container-item-title">The Y Combinator of Web3 Attracts Record Number of DAO Startups</h1>
-                    <p class="container-item-text">DAOs and related startups made up an “overwhelming number of applicants” for a Web3 accelerator’s cohort this year</p>
+                    <img alt="The Unstoppable Podcast Logo" class="container-item-image-podcasts" src="sources/images/section8/podcasts_2.png"/>
+                    <h1 class="container-item-title-podcasts">Everything You Need to Know About DAOs with Yury Lifshits from Superdao</h1>
+                    <p class="container-item-text-podcasts">The Unstoppable Podcast<br>by Josh Gordon</p>
+                    <a href="#" class="container-item-link-podcasts">Watch <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="container-item container-item-podcasts">
-                    <img class="container-item-image" src="sources/images/Frame 5589.png"/>
-                    <h1 class="container-item-title">VC-backed DAO startups are racing to define what DAOs actually are</h1>
-                    <p class="container-item-text">Not all 'decentralized autonomous organizations' are autonomous... or decentralized</p>
+                    <img alt="Zima Red Logo" class="container-item-image-podcasts" src="sources/images/section8/podcasts_3.png"/>
+                    <h1 class="container-item-title-podcasts">Yury Lifshits - Superdao: The “Shopify” for DAOs</h1>
+                    <p class="container-item-text-podcasts">Zima Red<br>by Andrew Stainwold</p>
+                    <a href="#" class="container-item-link-podcasts">Listen <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="footer-content">a</div>
-    </div>
+    </footer>
     <script src="sources/js/s3.js" type="text/javascript"></script>
 </body>
 </html>
