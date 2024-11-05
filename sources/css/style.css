@@ -226,7 +226,7 @@ section .section-text{
     aspect-ratio: 2.434077079;
     background-color: #010001;
     background-size:cover;
-    background-image:url('./images/section2/Showcase.png');
+    background-image:url('../images/section2/Showcase.png');
     border-radius: 30px;
     /* height:493px; */
     width:100%;
