@@ -474,9 +474,34 @@ section .section-text{
     width:100vw;
     height:168px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     background-color:var(--secondary) ;
 }
-.footer-content{
-    width:62.5vw;
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: fit-content;
+}
+.footer-link{
+    color: #ffffff;
+    font-size: 22;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-socials{
+    width:;
+    display: flex;
+    gap:20px;
+    height:fit-content;
+}
+.footer-social{
+    width:56px;
+    height:56px;
+    border-radius:100%;
+    background-color: #fff;
 }
